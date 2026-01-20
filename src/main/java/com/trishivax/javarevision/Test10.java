@@ -8,6 +8,12 @@ public class Test10 {
 
         Object o = new Object();
 
+
+
+
+
+
+
     }
 }
 class D{
