@@ -1,4 +1,4 @@
-package com.trishivax.vinit;
+package com.vinit;
 
 public class Test {
     public static void main(String[] args) {

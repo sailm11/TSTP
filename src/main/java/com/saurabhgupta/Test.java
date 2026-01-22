@@ -1,4 +1,4 @@
-package com.trishivax.saurabhgupta;
+package com.saurabhgupta;
 
 public class Test {
     public static void main(String[] args) {
