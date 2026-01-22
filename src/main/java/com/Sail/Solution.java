@@ -1,4 +1,4 @@
-package com.sail;
+package com.Sail;
 
 import java.util.Scanner;
 
