@@ -2,6 +2,7 @@ package com.sail.collections_practise;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
@@ -92,5 +93,34 @@ public class MyArrayList {
                 .collect(Collectors.groupingByConcurrent(n -> n % 2 == 0 ? "EVEN" : "ODD"));
 
         System.out.println(mapto);
+    }
+}
+
+class ListOperations {
+    public static void main(String[] args) {
+        LinkedList<Integer> node = new LinkedList<>();
+
+        node.add(5);
+        node.add(65);
+        node.add(18);
+        node.add(34);
+        System.out.println(node);
+
+        node.offer(28);
+        System.out.println(node);
+
+        node.remove(4);
+
+        System.out.println(node);
+        System.out.println(node.element());
+
+        node.pop();
+        System.out.println(node.element());
+
+        node.poll();
+        System.out.println(node.element());
+
+        node.peek();
+        System.out.println(node.element());
     }
 }
